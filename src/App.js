@@ -1,3 +1,4 @@
+import Expenseform from "./components/Expenseform";
 import Expenseitem from "./components/Expenseitem";
 import Expensetitle from "./components/Expensetitle";
 
@@ -44,6 +45,7 @@ function App() {
           
         )
       )}
+      <Expenseform></Expenseform>
     </div>
   );
 }
